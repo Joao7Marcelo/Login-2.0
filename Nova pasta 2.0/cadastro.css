@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+ --background-body: black   
+    
+}
+
+body {
+    background-color: var(--background-body);
+    max-width: 100%;
+}
+
+.corpo-cadastro {
+    background-color: black;
+}
+
+
+
+.dados-cadastro {
+    background-color: var(--background-box-content);
+    border: 2px solid white;
+    margin-top: 70px;
+
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.dados-cadastro h2{
+    color: white;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.input-dados{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.botao-enviar {
+    background-color: dodgerblue;
+    color: aliceblue;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-cadastro-click-cadastro{
+    color: white;
+    cursor: pointer;
+}
+
+.dados-conta-registro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dados-conta-registro-botao:hover{
+    cursor: pointer;
+    width: 55px;
+}
+
+
+
